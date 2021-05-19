@@ -110,6 +110,10 @@ nav {
   align-items: center;
   justify-content: center;
   position: relative;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  overflow: hidden;
 }
 
 .icon i {
