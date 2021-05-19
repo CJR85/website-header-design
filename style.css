@@ -114,6 +114,7 @@ nav {
   margin-bottom: 20px;
   border-radius: 6px;
   overflow: hidden;
+  transition: transform 0.5s;
 }
 
 .icon i {
@@ -136,4 +137,8 @@ nav {
 
 .icon a:hover {
   opacity: 1;
+}
+
+.icon:hover {
+  transform: translateY(-5px);
 }
